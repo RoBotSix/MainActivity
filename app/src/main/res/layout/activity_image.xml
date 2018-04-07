@@ -3,9 +3,32 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/hmmmmm"
-        />
+        android:id="@+id/imgPic"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btPic1"
+        android:layout_height="50dp"
+        android:layout_width="90dp"
+        android:layout_gravity="center"
+        android:text="Heyya"/>
+    <Button
+        android:id="@+id/btPic2"
+        android:layout_height="50dp"
+        android:layout_width="90dp"
+        android:layout_gravity="center"
+        android:text="Hmmmm" />
+    <Button
+        android:id="@+id/btPic3"
+        android:layout_height="50dp"
+        android:layout_width="90dp"
+        android:layout_gravity="center"
+        android:text="Reeeee"/>
+
+
+
+
 </LinearLayout>
+
 
